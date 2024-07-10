@@ -1,0 +1,45 @@
+
+#Banner{
+    background-color:burlywood;
+    text-align: center;
+    border-radius: 50px;
+    padding: 15px;
+    flex-direction: row;
+    
+}
+
+.Groceries{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+    
+    
+}
+
+.Groceries image{
+    width: 50%;
+    height: 50%;
+
+}
+
+#milk{
+    background: cornsilk;
+    width: 300px;
+}
+#eggs{
+    background-color: cornsilk;
+}
+#banana{
+    background-color: cornsilk;
+}
+#bread{
+    background-color: cornsilk;
+}
+#rice{
+    background-color: cornsilk;
+}
+#flour{
+    background-color: cornsilk;
+}
