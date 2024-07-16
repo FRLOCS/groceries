@@ -1,11 +1,11 @@
 
 #Banner{
-    background-color:burlywood;
+    background-color:antiquewhite;
     text-align: center;
     border-radius: 50px;
     padding: 15px;
-    flex-direction: row;
-    justify-content: center;
+   
+
     
 }
 
@@ -16,42 +16,137 @@
     gap: 20px;
     align-items: center;
     text-align: center;
+    justify-content: center;
+    
 }
 
 
 .Milk{
   background-color: antiquewhite;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
+  transition: width 3s;
+  animation-name: colorswitch;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.Milk:hover{
+    width: 400px;
+    height: 400px;
+
 }
 
 .Eggs{
     background-color: antiquewhite;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
+    transition: width 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
+
+.Eggs:hover{
+    width: 400px;
+    height: 400px;
+
+}
+
 
 .Banana{
     background-color: antiquewhite;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;transition: width 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.Banana:hover{
+    width: 400px;
+    height: 400px;
+
 }
 
 .Bread{
     background-color: antiquewhite;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;transition: width 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.Bread:hover{
+    width: 400px;
+    height: 400px;
+
 }
 
 .Sugar{
     background-color: antiquewhite;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;transition: width 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.Sugar:hover{
+    width: 400px;
+    height: 400px;
+
 }
 
 .Flour{
     background-color: antiquewhite;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;transition: width 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
+.Flour:hover{
+    width: 400px;
+    height: 400px;
+
+}
+
+#button{
+    background-color: antiquewhite;
+    width: 350px;
+    height: 350px;transition: width 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#ad{
+    background-color: antiquewhite;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+
+@keyframes colorswitch {
+    from {background-color: brown;}
+    to {background-color:gainsboro;}
+    
+}
+
+
+img{
+    transform: width 2s;
+}
+
+img:hover{
+    width: 250px;
+    height: 250px;
+
+}
