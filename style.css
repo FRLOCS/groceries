@@ -142,11 +142,13 @@ h2{
 
 
 img{
-    transform: width 2s;
+    width: 200px;
+    height: 200px;
+    transition: 4s;
 }
 
 img:hover{
-    width: 250px;
-    height: 250px;
+    width: 210px;
+    height: 210px;
 
 }
